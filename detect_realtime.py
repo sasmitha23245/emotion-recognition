@@ -112,8 +112,6 @@ def process_image(image_path, model, face_cascade):
             frame = draw_emotion(frame, x, y, w, h, emotion, confidence, predictions)
 
     cv2.imshow('Facial Emotion Recognition', frame)
-    cv2.imwrite('output_result.jpg', frame)
-    print("[INFO] Result saved as output_result.jpg")
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
