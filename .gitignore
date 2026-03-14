@@ -1,2 +1,6 @@
 fer2013.csv
 models/best_model.h5
+models/X_test.npy
+models/y_test.npy
+venv/
+__pycache__/
