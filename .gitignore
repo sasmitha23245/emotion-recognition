@@ -4,3 +4,4 @@ models/X_test.npy
 models/y_test.npy
 venv/
 __pycache__/
+*.pyc
